@@ -1,0 +1,15 @@
+Create a class method called 'get_object_type' in models.py
+The method should return a string.
+Uncomment the 2 lines of the unit test that are marked for Part4:
+  -  self.assertEqual('meal', Meal.get_object_type())
+  -  self.assertEqual('mealhistory', MealHistory.get_object_type())
+You should only write one implementation of this method, so choose carefully what class you implement it in.
+It is preferable to make this as a class method, however an instance method will also be accepted.
+You should not need to change anything aside from this one new method. (unless you have made a mistake in a previous part)
+Once this is done, the unit test (including those uncommented lines) should complete without any errors.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+
+Solution
+Create a class_method "get_object_type" in IdentifiableObject that will return class name and it will be accessibe by all classes that inherit this class

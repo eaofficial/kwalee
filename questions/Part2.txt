@@ -1,0 +1,21 @@
+Implement the 'add_meal' method in the MealHistory class.
+Uncomment the 5 lines of the unit test that are marked for Part2:
+  -  self.assertEqual(4, len(meal_history.meal_ids))
+  -  self.assertEqual(1, meal_history.vegan_count)
+  -  self.assertEqual(2, meal_history.vegetarian_count)
+  -  self.assertEqual(2, meal_history.dairy_free_count)
+  -  self.assertEqual(3, meal_history.pescatarian_count)
+
+The numbers in the assertions in the unit test are correct, you should not change them.
+Instead use those numbers to figure out what the 'add_meal' method is supposed to do.
+Once this method is implemented, the unit test (including those uncommented lines) should pass without any errors.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+Solution:
+Had to implement add_meal function
+    - append meal_id to list
+    - check if meal_id already in history to accommodate duplicate additions
+    - for the meal get all ingredients
+        for each ingredient check its unsuitable diets and increment instance param in meal history
+

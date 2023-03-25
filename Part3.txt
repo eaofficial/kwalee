@@ -1,0 +1,14 @@
+Add the 'meal_history' object to the database.
+Uncomment the 2 lines of the unit test that are marked for Part3:
+  -  db.add_object(meal_history)
+  -  self.assertEqual(1, db.get_object_by_id('i_like_cake').vegan_count)
+Make any changes you feel are necessary to the model and/or test to save the object in the database.
+You should not change those 2 uncommented lines.
+Once this is done, the unit test (including those uncommented lines) should complete without any errors.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+Solution
+1. First change MealHistory from object type to IdentifiableObject
+2. while initialising meal_history add object_id to instantiate object_id associated with it
+3. now use "i_like_cake" as object_id while initialising meal_history object

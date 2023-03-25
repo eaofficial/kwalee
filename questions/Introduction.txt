@@ -1,0 +1,17 @@
+This test takes place in 6 parts, one after the other. These parts must be done in order, and can not be skipped.
+If you get really stuck on one part, please ask for help.
+Of course it's best to do everything without hints or answers, but you're not expected to know everything,
+and we have hints for each part if (and only if) you can't solve it alone.
+
+If even with the hint, you cannot solve that specific part, we can provide you with a solution so you can proceed with
+the next step, but you will have to send us your current work first.
+
+For example, if you cannot complete Part3, even with the hint, then send us what you have so far,
+and we will send you back a test with parts 1 to 3 completed and 4 to 6 still to do.
+
+Run the code! This test is insanely hard if you're only looking at it in a text editor.
+
+Read the full question before starting it!
+
+Please remember, how you approach the problem is just as important as how you solve the problem, do not forget to write
+down any thing you did, or assumptions you made, below the question.

@@ -1,0 +1,14 @@
+Implement the 'get_objects_by_object_type' method in the Database class. (fix it in the code but also write your solution here)
+The method should return a list of objects.
+Uncomment the 2 lines of the unit test that are marked for Part5:
+  -  ingredients = db.get_objects_by_object_type(object_type=Ingredient.get_object_type())
+  -  self.assertEqual(7, len(ingredients))
+You should only need to change the method itself, nothing else. (unless you have made a mistake in a previous part)
+Once this is done, the unit test (including those uncommented lines) should complete without any errors.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+Solution
+implemented get_objects_by_object_type in database class
+ - getting all objects with given object_type using list comprehension
+

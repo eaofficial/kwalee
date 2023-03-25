@@ -1,0 +1,15 @@
+Implement the 'get_ingredients_string' method in the Meal class.
+The method should return a string of comma-separated, uppercase ingredient object_ids, sorted alphabetically.
+Uncomment the 4 lines of the unit test that are marked for Part6:
+  -  sausage_roll = db.get_object_by_id(object_id='sausage_roll')
+  -  hot_dog = db.get_object_by_id(object_id='hot_dog')
+  -  self.assertEqual('BREAD,SAUSAGE', sausage_roll.get_ingredients_string())
+  -  self.assertEqual('BREAD,CHEESE,ONION,SAUSAGE', hot_dog.get_ingredients_string())
+You should only need to change the method itself, nothing else. (unless you have made a mistake in a previous part)
+Once this is done, the unit test (including those uncommented lines) should complete without any errors.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+Solution:
+implemented 'get_ingredients_string' method
+for a particular meal id, it gets all ingridients from db then sort them then return them in csv

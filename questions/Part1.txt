@@ -1,0 +1,10 @@
+Try to run the test 'test_adding_meal' in tests.py
+The test will not run, what is missing in the code?
+Once this issue is fixed, the test will run successfully.
+
+Fix/write/implement the solution in the code BUT ALSO write/narrate/explain your solution below!
+
+
+Solution:
+
+Basic setup, as there was no assertion in part 1 I just had to make it run after basic setup
